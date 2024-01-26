@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Auto Tool - Official website</title>
+    
+    <!-- 添加favicon链接 -->
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light gray background */
+        }
+
+        header {
+            background-color: #007bff; /* Primary blue color */
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        footer {
+            background-color: #f8f8f8; /* 底部背景颜色 */
+            padding: 20px; /* 底部内边距 */
+            text-align: center; /* 文本居中 */
+            border-top: 1px solid #ddd; /* 底纹，可根据需要调整颜色 */
+        }
+
+        header h1 {
+            margin: 0; /* Ensure no margin for h1 inside header */
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 1.5em auto;
+            padding: 1.5em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            display: flex;
+            flex-wrap: wrap; /* Allow content to wrap to the next line on smaller screens */
+            justify-content: space-between;
+            gap: 20px; /* Spacing between columns */
+        }
+
+        h1 {
+            color: #ffffff; /* Adjusted header text color */
+        }
+
+        h2 {
+            color: #007bff; /* Adjusted header text color */
+        }
+
+        h3 {
+            color: #464646; /* Adjusted header text color */
+        }
+
+        p {
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            height: 70px;
+            text-align: center;
+            background-color: #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .download-button span {
+            font-size: 1.2em;
+            display: block;
+        }
+
+        .download-button:hover {
+            background-color: #0056b3;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .column-block {
+            flex: 1;
+            margin: 0 10px;
+            max-width: calc(50% - 55px); /* Adjust the maximum width for responsiveness */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        }
+
+        .column {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .benefits, .technique {
+            background-color: #e6f7ff; /* Light blue background */
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .subfunction {
+            background-color: #f1f1f1; /* Light blue background */
+            padding: 20px;
+            border-radius: 8px;
+            flex: 0 0 calc(60%); 
+            margin: 10px; 
+            display: flex;
+            align-items: center; 
+        }
+
+
+        .column-block {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .core-values-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            background-color: #f0f0f0; /* 背景颜色，可以根据需要调整 */
+        }
+
+        .core-value {
+            text-align: center;
+            max-width: 300px; /* 每个核心价值块的最大宽度，可以根据需要调整 */
+        }
+
+        .core-value img {
+            max-width: 100px; /* 图标的最大宽度，可以根据需要调整 */
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <br>
+        <img src="logo.png" alt="Your Logo" style="max-width: 128px; max-height: 128px;">
+        <h1>Invoice Processing AutoTool</h1>
+
+        <section class="core-values-section">
+            <div class="core-value">
+                <img src="eff.png" alt="Efficient Icon">
+                <h3>More Efficient</h3>
+                <p>Time saving for more than 30%</p>
+            </div>
+            
+            <div class="core-value">
+                <img src="acc.png" alt="Accurate Icon">
+                <h3>More Accurate</h3>
+                <p>Automation tools reduce manual typing</p>
+            </div>
+            
+            <div class="core-value">
+                <img src="stan.png" alt="Standardized Icon">
+                <h3>More Standardized</h3>
+                <p>Many things can be templated</p>
+            </div>
+        </section>
+
+    </header>
+
+
+    <section>
+        
+        <div class="column-block subfunction">
+            
+            <img src="struggle.png" alt="Coinciding Checker" style="max-width: 64px; max-height: 64px;">
+            <h3>Coinciding Checker</h3>
+            <p>
+                When a processor clicks into a specific case, the system automatically checks whether the task is assigned to them, preventing collisions with colleagues who might be assigned the same task.
+            </p>
+        </div>
+
+        <div class="column-block subfunction">
+            <img src="alarm.png" alt="Coinciding Checker" style="max-width: 64px; max-height: 64px;">
+            <h3>Piros Alarm</h3>
+            <p>
+                When a case involves special circumstances such as VAT or batch processing, this program will highlight critical areas in red to draw attention.
+            </p>
+        </div>
+
+        <div class="column-block subfunction">
+            <img src="ledger.png" alt="Coinciding Checker" style="max-width: 64px; max-height: 64px;">
+            <h3>Quick GL</h3>
+            <p>
+                The system has preset many commonly used GL codes in the form of a secondary menu, and the GL data list is customizable. Users can quickly select a category to retrieve the required GL value, and the program will automatically copy it to the clipboard.
+            </p>
+        </div>
+
+        <div class="column-block subfunction">
+            <img src="click.png" alt="Coinciding Checker" style="max-width: 64px; max-height: 64px;">
+            <h3>Quick Select</h3>
+            <p>
+                When a certain portion of text is selected in the tool (usually achieved by double-clicking), the selected content will be automatically copied to the clipboard.
+            </p>
+        </div>
+
+        <div class="column-block subfunction">
+            <img src="decimal.png" alt="Coinciding Checker" style="max-width: 64px; max-height: 64px;">
+            <h3>Amount Unifier</h3>
+            <p>
+                When users copy amounts from invoices, irregular formats often occur, such as using commas for decimals and dots for thousands separators. This feature actively monitors numeric text in the clipboard and automatically converts it to the standard currency format accepted by SAP.
+            </p>
+        </div>
+
+
+
+        <div class="column-block subfunction">
+            <img src="vat.png" alt="Coinciding Checker" style="max-width: 64px; max-height: 64px;">
+            <h3>VAT Assistant</h3>
+            <p>
+                For cases involving VAT, the program will automatically generate a tax-related assignment code in the format of "F + country code + 1". In the final step of entering FIC, it will also copy the assignment code and FIC number simultaneously
+            </p>
+        </div>
+
+        <div class="column-block subfunction">
+            <img src="copy.png" alt="Coinciding Checker" style="max-width: 64px; max-height: 64px;">
+            <h3>Super Copy</h3>
+            <p>
+                This is the most powerful and practical feature of the program. For direct invoices, LFP needs to provide FC, Line, and corresponding amounts, often involving multiple FC entries. This feature can automatically calculate the total FC provided by LFP, integrate the selected GL, and generate a funding source table with one click, which can be copied into SAP. This enables balancing with a single click and brings the total to zero.
+            </p>
+        </div>
+
+        <div class="column-block subfunction">
+            <img src="back.png" alt="Coinciding Checker" style="max-width: 64px; max-height: 64px;">
+            <h3>Fast Return</h3>
+            <p>
+                When further collaboration is needed from LFP, the program will automatically generate template messages for returns. These templates include salutations, closing remarks, and context-specific content based on scenarios such as duplication, insufficient funding, missing approval, house bank mismatch, etc. Users can also customize templates for other scenarios. This feature supports a one-click jump to the Teams chat interface with LFP and copies the pre-generated text for easy communication.
+            </p>
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+
+    
+    <section>
+        <div class="column technique">
+            <p>
+                <b>Running Platform:</b> <br>This program runs on Microsoft Windows operating systems and supports the majority of mainstream versions (Windows 7 and above, compatible with both 32-bit and 64-bit).
+                <br><br><b>Framework required:</b> <br>This program is developed using Microsoft Visual Studio as the Integrated Development Environment (IDE) and is written in the C# programming language. The runtime environment requires the operating system to have .NET Framework 6.0 or a higher version installed. Normally, .NET Framework is pre-installed in Windows operating systems. If it's not installed, the program will automatically prompt and initiate the download and installation from the Microsoft official website.
+                <br><br><b>Execution:</b><br>Due to UNICEF's security measures, this program cannot run directly from a local disk. The program needs to be stored in the cloud (such as OneDrive) before it can be executed.
+
+            </p>
+        </div>
+
+        <a href="IPtool1.91.zip" class="download-button">
+            <span>Free Download</span><br>
+            V1.91(24Jan24)
+        </a>
+    </section>
+
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; 2024 Zihan Li. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
